@@ -1,9 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="8xxR6NzgD1PBQossKRfj">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E46jwTWADjSCTfGyucf5-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="260" height="510" as="geometry">
+            <mxRectangle x="280" y="110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-2" value="Check-In" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E46jwTWADjSCTfGyucf5-1">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-3" value="&amp;nbsp;&lt;b&gt;Actors&lt;/b&gt;: Guest, Receptionist" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-4" value="&amp;nbsp;&lt;b&gt;Description&lt;/b&gt;:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest arrives at the hotel and checks in, the receptionist verfies the reservation and assign a room to the guest and give them the key.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-1">
+          <mxGeometry y="60" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-5" value="&lt;b&gt;Preconditions:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest must have a valid nreservation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The room must be available and ready for the guest&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest must provide valid identification details&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-1">
+          <mxGeometry y="140" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-6" value="&lt;b&gt;Postconditions&lt;/b&gt;:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest has checked into the room and received the keys&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The system is updated and room is now occupiied&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-1">
+          <mxGeometry y="280" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-7" value="&lt;b&gt;Exceptions&lt;/b&gt;:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The room is not ready or unavlavlibe because of unexpected issues succh as maintenance&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest doesn&#39;t have valid identification details&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-1">
+          <mxGeometry y="390" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-8" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="110" width="260" height="440" as="geometry">
+            <mxRectangle x="280" y="110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-9" value="Check-Out" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E46jwTWADjSCTfGyucf5-8">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-10" value="&amp;nbsp;&lt;b&gt;Actors&lt;/b&gt;: Guest, Receptionist" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-8">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-11" value="&amp;nbsp;&lt;b&gt;Description&lt;/b&gt;:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest checks out of the hotel after their time of stay. The recpitionist calculates any addition charges and process the payment. The room is avavlibale for other guests&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-8">
+          <mxGeometry y="60" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-12" value="&lt;b&gt;Preconditions:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest reservation must end&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Any additional charges must be calculated and paid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-8">
+          <mxGeometry y="160" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-13" value="&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Postconditions&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The guest checks out and the room is available for other guests&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-8">
+          <mxGeometry y="270" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E46jwTWADjSCTfGyucf5-14" value="&lt;b&gt;Exceptions&lt;/b&gt;:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest fails to pay the additional charges&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="E46jwTWADjSCTfGyucf5-8">
+          <mxGeometry y="350" width="260" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
