@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="4LQfPqmkoEVWZsOalK7k">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="260" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-2" value="Create Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-1">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-3" value="&amp;nbsp;&lt;b&gt;Actors&lt;/b&gt;: Guest, Hotel System" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-4" value="&lt;b&gt;Description:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest creates an account in the hotel system by providing his personal information. Which allows him to book reservation in the hotel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-1">
+          <mxGeometry y="60" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-5" value="&lt;b&gt;Preconditions:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;The guest should provide valid personal information&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The system must not have an account registerd with identical information&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-1">
+          <mxGeometry y="160" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-6" value="&lt;b&gt;Postcondition:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest account is created&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A confirmation email is sent to the guest&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-1">
+          <mxGeometry y="270" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-8" value="&lt;b&gt;&amp;nbsp;Exceptions:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The provided email is used for an existing account&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The provided information is invalid or incomplete&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-1">
+          <mxGeometry y="360" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="260" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-10" value="Update Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-9">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-11" value="&amp;nbsp;&lt;b&gt;Actors&lt;/b&gt;: Guest, Hotel System" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-9">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-12" value="&lt;b&gt;Description:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest updates their profile informationj such as contact details and password&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-9">
+          <mxGeometry y="60" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-13" value="&lt;b&gt;Preconditions:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest must be logged in&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest must provide valid information&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-9">
+          <mxGeometry y="130" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-14" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;Postcondition:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The profile is updated and a confirmation email is sent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-9">
+          <mxGeometry y="210" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-15" value="&amp;nbsp;&lt;b&gt;Exceptions&lt;/b&gt;:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest provides invalid information&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A maintance is undergoing for the system preventing the guest from updating the profile&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-9">
+          <mxGeometry y="280" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-16" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="260" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-17" value="View Booking History" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-16">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-18" value="&amp;nbsp;&lt;b&gt;Actors&lt;/b&gt;: Guest, Hotel System" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-16">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-19" value="&lt;b&gt;Description:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest logs to the account&amp;nbsp; and views their history of past or incoming reservations, and details such as check-in, check-out and room type&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-16">
+          <mxGeometry y="60" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-20" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;Preconditions:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest must have an account&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-16">
+          <mxGeometry y="160" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-21" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;Postcondition:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The system displays the guest&#39;s booking history for the guest&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-16">
+          <mxGeometry y="220" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zqyVIL8vqCs4m4LPCvr3-22" value="&lt;b&gt;&amp;nbsp;Exceptions:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The guest account is new so they have no booking history&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zqyVIL8vqCs4m4LPCvr3-16">
+          <mxGeometry y="290" width="260" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
